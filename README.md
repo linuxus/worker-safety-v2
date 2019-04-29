@@ -25,6 +25,7 @@ To configure your AWS account for AWS DeepLens
 - After the certificate is downloaded, choose Next to proceed to joining your computer to your device's (AMDC-NNNN) Wi-Fi network in order to start the device setup application hosted on the device. 
 - Plug in your AWS DeepLens device to an AC power outlet. Press the power button on the front of the device to turn the device on. 
 - Wait until the device has entered into setup mode when the Wi-Fi indicator (middle LED) on the front of the device starts to flash. 
+    - *Note*: If Wi-Fi indicator (middle LED) does not flash, the device in no longer in the setup mode. To turn on the device's setup mode again, press CAREFULLY a paper clip into the reset pinhole on the back of the device. After you hear a click, wait about 20 seconds for the Wi-Fi indicator to blink. 
 - Open the network management tool on your computer. Choose your device's SSID from the list of available Wi-Fi networks and type the password for the device's network. The SSID and password are printed on the bottom of your device. The device's Wi-Fi network's SSID has the AMDC-NNNN format
 - After successfully connecting your computer to the device's Wi-Fi network, you're now ready to launch the device setup application to configure your device. 
 

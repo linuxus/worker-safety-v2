@@ -1,0 +1,5 @@
+Model type: SSD archtecture with ResNet50 feature extractor
+Artifact Path: /opt/awscam/artifacts/mxnet_deploy_ssd_resnet50_300_FP16_FUSED.xml
+Label set: pascal_voc
+Training data: n/a
+Output order: not sorted
