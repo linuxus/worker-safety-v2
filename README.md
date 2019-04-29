@@ -1,4 +1,4 @@
-# Worker Safety  v1
+# Worker Safety  v2
 ## 1. Register the AWS DeepLens Device
 ### 1.1 Configure Your AWS Account to Use AWS DeepLens 
 If you recycle a device from another user, make sure that the previous user has deregistered the device before registering it again.
