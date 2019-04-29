@@ -9,7 +9,7 @@ To configure your AWS account for AWS DeepLens
 
 - Choose Register device. If you don't see a Register device button, choose Devices on the main navigation pane.
 
-- In the Name your device section on the Configure your AWS account page, type a name (e.g., abdi_deepLens_1) for your AWS DeepLens device in the Device name text field .
+- In the Name your device section on the Configure your AWS account page, type a name (e.g., abdi-deepLens-1) for your AWS DeepLens device in the Device name text field .
 
 - The device name can have up to 100 characters. Valid characters are a-z, A-Z, 0-9, and - (hyphen) only. 
 - In the Permissions section, choose Create roles for the AWS DeepLens console to create the required IAM roles with relevant permissions on your behalf.
