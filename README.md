@@ -78,7 +78,7 @@ To configure your AWS account for AWS DeepLens
 To ensure the setup completes successfully, make sure that AWS DeepLens device has access to ports 8883 and 8443 and is not blocked by your network firewall policy. 
 
 ## 2. Preperaing the data
-### 2.1 Install Google Image dowloader tool
+### 2.1 Install Image dowloader tool
 This is a command line python program to search keywords/key-phrases on Google Images and optionally download images to your computer.
 
 *Compatibility*:
