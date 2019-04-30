@@ -89,28 +89,11 @@ You will just have to specify parameters through the command line.
 
 *Installation*:
 
-You can use **one of the below methods** to download and use this repository.
-
-Using pip
-
-    $ pip install google_images_download
-
-Manually using CLI
-
-    $ git clone https://github.com/hardikvasa/google-images-download.git
-    $ cd google-images-download && sudo python setup.py install
-
-Manually using UI
-
-Go to the `repo on github <https://github.com/hardikvasa/google-images-download>`__ ==> Click on 'Clone or Download' ==> Click on 'Download ZIP' and save it on your local disk.
+Download the image download program: google-images-download-master.zip and save it on your local disk.
 
 *Usage - Using Command Line Interface*:
 
-If installed via pip or using CLI, use the following command:
-
-    $ googleimagesdownload [Arguments...]
-
-If downloaded via the UI, unzip the file downloaded, go to the 
+Unzip the file downloaded, go to the 
 ```bash
 $ python3 google_images_download.py [Arguments...]
 ```
@@ -125,6 +108,7 @@ $ python google_images_download.py [Arguments...]
 ```bash
 $ python google_images_download.py [Arguments...]
 ```
+
 
 ### 2.2 Store your data in Amazon S3
 
