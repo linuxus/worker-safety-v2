@@ -78,6 +78,51 @@ To configure your AWS account for AWS DeepLens
 To ensure the setup completes successfully, make sure that AWS DeepLens device has access to ports 8883 and 8443 and is not blocked by your network firewall policy. 
 
 ## 2. Preperaing the data
+### 2.1 Install Google Image dowloader tool
+This is a command line python program to search keywords/key-phrases on Google Images and optionally download images to your computer.
+
+*Compatibility*:
+
+This program is compatible with both the versions of python - 2.x and 3.x (recommended).
+It is a download-and-run program with no changes to the file.
+You will just have to specify parameters through the command line.
+
+*Installation*:
+
+You can use **one of the below methods** to download and use this repository.
+
+Using pip
+
+.. code-block:: bash
+
+    $ pip install google_images_download
+
+Manually using CLI
+
+.. code-block:: bash
+
+    $ git clone https://github.com/hardikvasa/google-images-download.git
+    $ cd google-images-download && sudo python setup.py install
+
+Manually using UI
+
+Go to the `repo on github <https://github.com/hardikvasa/google-images-download>`__ ==> Click on 'Clone or Download' ==> Click on 'Download ZIP' and save it on your local disk.
+
+*Usage - Using Command Line Interface*:
+
+If installed via pip or using CLI, use the following command:
+
+.. code-block:: bash
+
+    $ googleimagesdownload [Arguments...]
+
+If downloaded via the UI, unzip the file downloaded, go to the 'google_images_download' directory and use one of the below commands:
+
+.. code-block:: bash
+
+    $ python3 google_images_download.py [Arguments...]
+    OR
+    $ python google_images_download.py [Arguments...]
 
 ### 2.1 Download the raw dataset
 
