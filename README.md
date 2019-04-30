@@ -89,7 +89,7 @@ You will just have to specify parameters through the command line.
 
 *Installation*:
 
-Download the image download program: [google-images-download-master.zip](.tools/google-images-download-master.zip) and save it on your local disk.
+Download the image download program: [google-images-download-master.zip](tools/google-images-download-master.zip) and save it on your local disk.
 
 *Usage - Using Command Line Interface*:
 
