@@ -93,13 +93,9 @@ You can use **one of the below methods** to download and use this repository.
 
 Using pip
 
-.. code-block:: bash
-
     $ pip install google_images_download
 
 Manually using CLI
-
-.. code-block:: bash
 
     $ git clone https://github.com/hardikvasa/google-images-download.git
     $ cd google-images-download && sudo python setup.py install
@@ -112,19 +108,23 @@ Go to the `repo on github <https://github.com/hardikvasa/google-images-download>
 
 If installed via pip or using CLI, use the following command:
 
-.. code-block:: bash
-
     $ googleimagesdownload [Arguments...]
 
-If downloaded via the UI, unzip the file downloaded, go to the 'google_images_download' directory and use one of the below commands:
-
-.. code-block:: bash
-
-    $ python3 google_images_download.py [Arguments...]
-    OR
-    $ python google_images_download.py [Arguments...]
-
+If downloaded via the UI, unzip the file downloaded, go to the 
+```bash
+$ python3 google_images_download.py [Arguments...]
+```
+OR
+```bash
+$ python google_images_download.py [Arguments...]
+```
 ### 2.1 Download the raw dataset
+- Create a folder to download the images into
+- Download about 50 images of safety glasses and person by running the following command:
+
+```bash
+$ python google_images_download.py [Arguments...]
+```
 
 ### 2.2 Store your data in Amazon S3
 
